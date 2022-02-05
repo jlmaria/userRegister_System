@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-02-2022 a las 15:27:56
+-- Tiempo de generación: 05-02-2022 a las 22:41:54
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.0.13
 
@@ -47,7 +47,8 @@ INSERT INTO `users` (`id`, `user`, `password`, `name`, `email`, `last_session`, 
 (3, 'user2', 'a1881c06eec96db9901c7bbfe41c42a3f08e9cb4', 'user2', 'user2@mail.com', NULL, 1),
 (4, 'user3', '0b7f849446d3383546d15a480966084442cd2193', 'user3', 'user3@mail.com', NULL, 1),
 (5, 'user4', '06e6eef6adf2e5f54ea6c43c376d6d36605f810e', 'user4', 'user4@mail.com', NULL, 1),
-(6, 'user5', '7d112681b8dd80723871a87ff506286613fa9cf6', 'user5', 'user5@mail.com', NULL, 1);
+(6, 'user5', '7d112681b8dd80723871a87ff506286613fa9cf6', 'user5', 'user5@mail.com', NULL, 1),
+(7, 'user6', '312a46dc52117efa4e3096eda510370f01c83b27', 'user6', 'user6@mail.com', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -92,7 +93,7 @@ ALTER TABLE `user_type`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT de la tabla `user_type`
