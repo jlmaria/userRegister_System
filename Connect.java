@@ -13,7 +13,7 @@ public class Connect {
         try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String base = "users";
+            String base = "user_register_system";
             String url = "jdbc:mysql://localhost:3306/" + base;
             String user = "root";
             String pass = "";
